@@ -4,8 +4,14 @@
 
 .form_image_wrap_image {
     margin: 0 auto;
-    max-width: 190px;
+    max-width: 250px;
     position: relative;
+}
+
+@media (max-width: 425px) {
+    .form_image_wrap_image {
+        max-width: 190px;
+    }
 }
 .form_image_wrap_image img {width: 100%}
 

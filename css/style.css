@@ -200,6 +200,10 @@ body {
   display: block;
 }
 
+.post__img-prod {
+  max-width: 280px;
+}
+
 .post__quote {
   border-left: 3px solid #31b1e1;
   font-style: italic;
